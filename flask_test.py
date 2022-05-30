@@ -18,7 +18,7 @@ tasks = {
     }
 }
 
-@app.route("/", methods=["POST", "GET"])
+@app.route("/Login", methods=["POST", "GET"])
 
 def get_tasks():
     return jsonify({'tasks': tasks})
