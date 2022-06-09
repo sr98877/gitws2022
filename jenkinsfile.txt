@@ -3,13 +3,13 @@ pipeline {
 agent slave  
 
 stages {
-	stage ('scm') {
+	stage('SCM') {
 		echo "hello world"
-	},
-	stage ('build') {
+	}
+	stage('Build') {
 		echo "hey new world is coming"
-		}
-	stage ('deploy') {
+	}
+	stage('Deploy') {
 		echo "hey this is deploy world"
 		}
 	}
