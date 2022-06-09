@@ -1,0 +1,16 @@
+pipeline {
+
+agent slave  
+
+stages {
+	stage ('scm') {
+		echo "hello world"
+	},
+	stage ('build') {
+		echo "hey new world is coming"
+		}
+	stage ('deploy') {
+		echo "hey this is deploy world"
+		}
+	}
+}
